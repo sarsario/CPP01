@@ -13,7 +13,7 @@
 # ================================ VARIABLES ================================= #
 
 # The name of the executable
-NAME = 
+NAME = violence
 
 # Compiler and compiling flags
 CC	= c++
@@ -38,6 +38,9 @@ endif
 
 SRCS =\
 	main.cpp\
+	Weapon.cpp\
+	HumanA.cpp\
+	HumanB.cpp
 
 # HEADERS =\
 # 	$(INCDIR)philo.h
