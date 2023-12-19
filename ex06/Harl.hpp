@@ -5,12 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: osarsari <osarsari@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/19 10:52:42 by osarsari          #+#    #+#             */
-/*   Updated: 2023/12/19 10:52:43 by osarsari         ###   ########.fr       */
+/*   Created: 2022/05/21 13:56:06 by osarsari          #+#    #+#             */
+/*   Updated: 2023/12/19 13:52:54 by osarsari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef HARL_HPP
+
 # define HARL_HPP
 
 # define DEFAULT "\001\033[0;39m\002"
