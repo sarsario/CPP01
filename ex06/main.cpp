@@ -22,7 +22,7 @@ int	Harl_translate(char *argv)
 	return (-1);
 }
 
-void	Harl_switch(char *argv, Harl & k)
+void	Harl_switch(char *argv, Harl &k)
 {
 	switch (Harl_translate(argv))
 	{
@@ -47,9 +47,12 @@ int	main(int argc, char **argv)
 	Harl k;
 
 	if (argc != 2)
+	{
 		std::cout << \
-			"[ Probably complaining about insignificant problems ]" << \
+			"Usage: ./harl [DEBUG|INFO|WARNING|ERROR]" << \
 			std::endl;
+		return (1);
+	}
 	else
 		Harl_switch(argv[1], k);
 	return (0);

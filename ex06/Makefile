@@ -21,7 +21,7 @@ CFLAGS	= -Wall -Werror -Wextra -std=c++98
 
 # Debug, use with`make DEBUG=1`
 ifeq ($(DEBUG),1)
-CFLAGS	+= -g3 -fsanitize=address
+CFLAGS	+= -g3
 endif
 
 # Folder names
